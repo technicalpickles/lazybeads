@@ -1,0 +1,31 @@
+# LazyBeads Configuration
+# Copy this file to ~/.config/lazybeads/config.yml and customize
+
+# Custom commands
+# Define keybindings that execute shell commands with issue context
+customCommands:
+  # Example: Open issue in browser
+  # - key: "b"
+  #   description: "Open in browser"
+  #   context: "list"
+  #   command: "open 'https://github.com/org/repo/issues/{{.ID}}'"
+
+  # Example: Start work in new tmux pane
+  # - key: "w"
+  #   description: "Start work in new tmux pane"
+  #   context: "list"
+  #   command: "tmux split-window -h 'claude --issue {{.ID}}'"
+
+  # Example: Copy issue summary to clipboard
+  # - key: "C"
+  #   description: "Copy issue summary"
+  #   context: "detail"
+  #   command: "echo '{{.ID}}: {{.Title}}' | pbcopy"
+
+# Available template variables:
+#   {{.ID}}          - Issue ID (e.g., "proj-123")
+#   {{.Title}}       - Issue title
+#   {{.Status}}      - Status: open, in_progress, closed
+#   {{.Type}}        - Type: task, bug, feature, epic, chore
+#   {{.Priority}}    - Priority: 0 (highest) to 4 (lowest)
+#   {{.Description}} - Full description text

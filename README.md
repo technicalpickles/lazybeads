@@ -110,6 +110,8 @@ LazyBeads looks for a configuration file at:
 - `$LAZYBEADS_CONFIG` (if set)
 - `~/.config/lazybeads/config.yml` (default)
 
+See [`config.example.yml`](./config.example.yml) for a fully commented example.
+
 ### Custom commands
 
 Define custom keybindings that execute shell commands. Template variables from the selected issue are available.
