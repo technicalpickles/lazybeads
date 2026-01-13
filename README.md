@@ -27,13 +27,13 @@ Navigate, create, and manage your project issues without leaving the terminal.
 ### From source
 
 ```bash
-go install github.com/youruser/lazybeads@latest
+go install github.com/codegangsta/lazybeads@latest
 ```
 
 Or clone and build:
 
 ```bash
-git clone https://github.com/youruser/lazybeads
+git clone https://github.com/codegangsta/lazybeads
 cd lazybeads
 go install .
 ```
