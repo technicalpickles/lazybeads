@@ -22,7 +22,13 @@ Navigate, create, and manage your project issues without leaving the terminal.
 ### Prerequisites
 
 - Go 1.25+
-- `bd` CLI installed and available in PATH
+- [`bd` CLI](https://github.com/anthropics/beads) installed and available in PATH
+
+To install the bd CLI:
+
+```bash
+go install github.com/anthropics/beads/cmd/bd@latest
+```
 
 ### From source
 
