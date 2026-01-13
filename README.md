@@ -49,6 +49,8 @@ lazybeads
 
 If beads isn't initialized, you'll be prompted to set it up.
 
+> **Note:** LazyBeads requires an interactive terminal (TTY). For headless environments, CI pipelines, or scripting, use `lazybeads --check` to validate the bd CLI integration without launching the UI.
+
 ### Validation mode
 
 Verify the bd CLI integration works:
