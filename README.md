@@ -57,6 +57,19 @@ Verify the bd CLI integration works:
 lazybeads --check
 ```
 
+### Config diagnostics
+
+Check configuration file loading status and debug custom command issues:
+
+```bash
+lazybeads --config
+```
+
+This shows:
+- Which config file path is being used
+- Whether the file exists and parses correctly
+- List of loaded custom commands
+
 ## Keybindings
 
 ### Navigation
